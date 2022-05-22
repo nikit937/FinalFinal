@@ -6,34 +6,271 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="327dp"
-        android:layout_height="89dp"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="334dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginBottom="308dp"
-        android:text="После введения нажмите здесь"
+    <EditText
+        android:id="@+id/WallD"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="654dp"
+        android:inputType="numberDecimal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/DoorD"
+        android:inputType="numberDecimal"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="349dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/nameLabel"
-        android:layout_width="0dp"
+        android:id="@+id/Paper2"
+        android:layout_width="137dp"
         android:layout_height="20dp"
-        android:text="Ваш текст:"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="302dp"
+        android:text="Длина рулона:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/name"
-        android:layout_width="404dp"
-        android:layout_height="57dp"
+        android:id="@+id/WallpaperS"
+        android:inputType="numberDecimal"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameLabel" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Paper1"
+        android:layout_width="131dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="403dp"
+        android:text="Ширина рулона:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/WallpaperD"
+        android:inputType="numberDecimal"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="248dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Door2"
+        android:layout_width="137dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="404dp"
+        android:text="Длина двери:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/DoorS"
+        android:inputType="numberDecimal"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="455dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/WindowD"
+        android:inputType="numberDecimal"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="455dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Door1"
+        android:layout_width="128dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="512dp"
+        android:text="Ширина двери:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Window2"
+        android:layout_width="137dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="509dp"
+        android:text="Длина окон:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/WindowS"
+        android:inputType="numberDecimal"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="553dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CeilingS"
+        android:inputType="numberDecimal"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="553dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Window1"
+        android:layout_width="106dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="607dp"
+        android:text="Ширина окон:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Ceiling"
+        android:layout_width="137dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="607dp"
+        android:text="Высота потолков:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/WallS"
+        android:inputType="numberDecimal"
+        android:layout_width="133dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="654dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Wall2"
+        android:layout_width="106dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="708dp"
+        android:text="Ширина стен:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="327dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="607dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="35dp"
+        android:text="Произвести расчет"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Wall1"
+        android:layout_width="88dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="318dp"
+        android:layout_marginBottom="708dp"
+        android:text="Длина стен:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
